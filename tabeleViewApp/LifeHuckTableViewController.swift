@@ -1,39 +1,18 @@
 //
-//  TableViewController.swift
+//  LifeHuckTableViewController.swift
 //  tabeleViewApp
 //
-//  Created by 金野利哉 on 2020/09/06.
+//  Created by 金野利哉 on 2020/09/23.
 //  Copyright © 2020 金野利哉. All rights reserved.
 //
 
 import UIKit
 
-class TableViewController: UITableViewController {
-    
+class LifeHuckTableViewController: UITableViewController {
 
-        
-    
-        
-   
-    
-    var resultArray = [String]()
-    override func viewWillAppear(_ animated: Bool) {
-//        UserDefaltsが空でなければ
-        if UserDefaults.standard.object(forKey: "add") != nil    {
-//            現在UserDfaltsに保存されている配列の値をresultに入れる
-            resultArray = UserDefaults.standard.object(forKey: "add")as! [String]
-        }
-        tableView.reloadData()
-    
-    }
-//viewDidloadは画面で一番最初に出る画面
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
-        
-        
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -45,44 +24,26 @@ class TableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return resultArray.count
-        
-     
+        return 0
+    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
-    
 
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "NameCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-        cell.textLabel?.text=resultArray[indexPath.row]
-        
+        // Configure the cell...
 
         return cell
-        
-        
-        
     }
-    
-    //スワイプしたセルを削除
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == UITableViewCell.EditingStyle.delete {
-            resultArray.remove(at: indexPath.row)
-            tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.automatic)
-            print(resultArray)
-     
-//    ゾンビ化を防ぐコード
-            UserDefaults.standard.set(resultArray, forKey: "add")}}
-    
-    
-    
-    
+    */
 
     /*
     // Override to support conditional editing of the table view.

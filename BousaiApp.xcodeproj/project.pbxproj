@@ -11,23 +11,34 @@
 		CA62590E25049ABF00825F8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA62590D25049ABF00825F8A /* SceneDelegate.swift */; };
 		CA62591025049ABF00825F8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA62590F25049ABF00825F8A /* ViewController.swift */; };
 		CA62591325049ABF00825F8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA62591125049ABF00825F8A /* Main.storyboard */; };
-		CA62591525049AC100825F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA62591425049AC100825F8A /* Assets.xcassets */; };
 		CA62591825049AC100825F8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA62591625049AC100825F8A /* LaunchScreen.storyboard */; };
 		CA62592025049E4300825F8A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA62591F25049E4300825F8A /* TableViewController.swift */; };
 		CA6259222504AB8100825F8A /* addListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6259212504AB8100825F8A /* addListViewController.swift */; };
+		CA81C54F251C6BA500900761 /* LifeHuch1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81C54E251C6BA500900761 /* LifeHuch1ViewController.swift */; };
+		CA81C552251DAD8200900761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA81C551251DAD8200900761 /* Assets.xcassets */; };
+		CABECA09251ECAAB000C86BC /* MochimonoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABECA08251ECAAB000C86BC /* MochimonoViewController.swift */; };
+		CABECA0B251ECBA4000C86BC /* MochimonoAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABECA0A251ECBA4000C86BC /* MochimonoAddViewController.swift */; };
+		CABEE18825187FDD000F3A18 /* OyakusokuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEE18725187FDD000F3A18 /* OyakusokuTableViewController.swift */; };
+		CABEE18A2518800F000F3A18 /* OyakusokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEE1892518800F000F3A18 /* OyakusokuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CA62590825049ABF00825F8A /* tabeleViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabeleViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA62590825049ABF00825F8A /* OWDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWDO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA62590B25049ABF00825F8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA62590D25049ABF00825F8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA62590F25049ABF00825F8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA62591225049ABF00825F8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CA62591425049AC100825F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA62591725049AC100825F8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA62591925049AC100825F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA62591F25049E4300825F8A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		CA6259212504AB8100825F8A /* addListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addListViewController.swift; sourceTree = "<group>"; };
+		CA81C54E251C6BA500900761 /* LifeHuch1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHuch1ViewController.swift; sourceTree = "<group>"; };
+		CA81C550251DACB800900761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA81C551251DAD8200900761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABECA08251ECAAB000C86BC /* MochimonoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MochimonoViewController.swift; sourceTree = "<group>"; };
+		CABECA0A251ECBA4000C86BC /* MochimonoAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MochimonoAddViewController.swift; sourceTree = "<group>"; };
+		CABEE18725187FDD000F3A18 /* OyakusokuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyakusokuTableViewController.swift; sourceTree = "<group>"; };
+		CABEE1892518800F000F3A18 /* OyakusokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyakusokuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +63,7 @@
 		CA62590925049ABF00825F8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA62590825049ABF00825F8A /* tabeleViewApp.app */,
+				CA62590825049ABF00825F8A /* OWDO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,15 +71,21 @@
 		CA62590A25049ABF00825F8A /* tabeleViewApp */ = {
 			isa = PBXGroup;
 			children = (
-				CA62590B25049ABF00825F8A /* AppDelegate.swift */,
+				CA81C550251DACB800900761 /* Assets.xcassets */,
+				CA81C551251DAD8200900761 /* Assets.xcassets */,
 				CA62590D25049ABF00825F8A /* SceneDelegate.swift */,
 				CA62590F25049ABF00825F8A /* ViewController.swift */,
 				CA62591F25049E4300825F8A /* TableViewController.swift */,
-				CA62591125049ABF00825F8A /* Main.storyboard */,
 				CA6259212504AB8100825F8A /* addListViewController.swift */,
-				CA62591425049AC100825F8A /* Assets.xcassets */,
+				CA62590B25049ABF00825F8A /* AppDelegate.swift */,
+				CABEE18725187FDD000F3A18 /* OyakusokuTableViewController.swift */,
+				CABEE1892518800F000F3A18 /* OyakusokuViewController.swift */,
+				CA62591125049ABF00825F8A /* Main.storyboard */,
 				CA62591625049AC100825F8A /* LaunchScreen.storyboard */,
 				CA62591925049AC100825F8A /* Info.plist */,
+				CA81C54E251C6BA500900761 /* LifeHuch1ViewController.swift */,
+				CABECA08251ECAAB000C86BC /* MochimonoViewController.swift */,
+				CABECA0A251ECBA4000C86BC /* MochimonoAddViewController.swift */,
 			);
 			path = tabeleViewApp;
 			sourceTree = "<group>";
@@ -90,7 +107,7 @@
 			);
 			name = tabeleViewApp;
 			productName = tabeleViewApp;
-			productReference = CA62590825049ABF00825F8A /* tabeleViewApp.app */;
+			productReference = CA62590825049ABF00825F8A /* OWDO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA62590325049ABF00825F8A /* Build configuration list for PBXProject "tabeleViewApp" */;
+			buildConfigurationList = CA62590325049ABF00825F8A /* Build configuration list for PBXProject "BousaiApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA62591825049AC100825F8A /* LaunchScreen.storyboard in Resources */,
-				CA62591525049AC100825F8A /* Assets.xcassets in Resources */,
+				CA81C552251DAD8200900761 /* Assets.xcassets in Resources */,
 				CA62591325049ABF00825F8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA81C54F251C6BA500900761 /* LifeHuch1ViewController.swift in Sources */,
 				CA62591025049ABF00825F8A /* ViewController.swift in Sources */,
 				CA62590C25049ABF00825F8A /* AppDelegate.swift in Sources */,
+				CABECA0B251ECBA4000C86BC /* MochimonoAddViewController.swift in Sources */,
+				CABEE18A2518800F000F3A18 /* OyakusokuViewController.swift in Sources */,
 				CA6259222504AB8100825F8A /* addListViewController.swift in Sources */,
+				CABECA09251ECAAB000C86BC /* MochimonoViewController.swift in Sources */,
+				CABEE18825187FDD000F3A18 /* OyakusokuTableViewController.swift in Sources */,
 				CA62590E25049ABF00825F8A /* SceneDelegate.swift in Sources */,
 				CA62592025049E4300825F8A /* TableViewController.swift in Sources */,
 			);
@@ -300,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Toshiya.k.tabeleViewApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OWDO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Toshiya.k.tabeleViewApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OWDO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -327,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA62590325049ABF00825F8A /* Build configuration list for PBXProject "tabeleViewApp" */ = {
+		CA62590325049ABF00825F8A /* Build configuration list for PBXProject "BousaiApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA62591A25049AC100825F8A /* Debug */,

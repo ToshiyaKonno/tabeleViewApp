@@ -48,8 +48,16 @@ class addListViewController: UIViewController {
         
         
     }
+//    キーボードを下げる
     
-    
+    override func didReceiveMemoryWarning() {
+           super.didReceiveMemoryWarning()
+       }
+
+       override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+           addTect.text = addTect.text
+           self.view.endEditing(true)
+       }
 
     /*
     // MARK: - Navigation
